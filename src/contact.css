@@ -1,0 +1,29 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: 0em 17% 0;
+}
+.contact h2 {
+  text-align: left;
+  color: #ff7318;
+  margin-bottom: 0;
+}
+.tags {
+  text-align: left;
+  letter-spacing: 0.5px;
+  margin: 3em 0px 1em;
+}
+.tags span {
+  font-size: 12px;
+  color: grey;
+}
+.tags span:last-child {
+  color: black;
+}
+.contact p {
+  text-align: left;
+  color: grey;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+}

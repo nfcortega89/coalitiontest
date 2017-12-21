@@ -1,0 +1,28 @@
+.header {
+  background: #ff7318;
+  text-transform: uppercase;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  min-height: 35px;
+  display: flex;
+  align-items: center;
+}
+.headerSpans span {
+  padding: 0 4px;
+}
+.headerSpans span:first-of-type {
+  color: #8e4d48;
+}
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px 17%;
+}
+.login-links a {
+  padding: 0 4px;
+}
+.login-links a:first-of-type {
+  color: #8e4d48;
+}

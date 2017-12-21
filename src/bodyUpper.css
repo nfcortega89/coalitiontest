@@ -1,0 +1,58 @@
+.bodyUpper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  align-items: center;
+  margin: 2em 17% 0;
+}
+.logo {
+  font-size: 25px;
+  display: flex;
+  width: 100%;
+}
+.logo h1:last-child {
+  color: #ff7318;
+}
+nav {
+  font-size: 12px;
+}
+.secondaryLinks {
+  list-style-type: none;
+  display: flex;
+}
+.secondaryLinks li {
+  text-transform: uppercase;
+  padding: 0 14px;
+}
+.secondaryLinks li:nth-child(2) {
+  text-decoration: underline;
+  text-decoration-color: #ff7219;
+}
+.submenu1 ul,
+.submenu2 ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0.5em;
+  line-height: 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.submenu1 li:nth-child(3),
+.submenu2 li:nth-child(3) {
+  font-weight: 900;
+}
+.submenu1 {
+  width: 100%;
+  position: relative;
+  top: 80px;
+  border: 1px solid grey;
+  left: -420px;
+}
+.submenu2 {
+  position: relative;
+  width: 100%;
+  border: 1px solid grey;
+  top: 140px;
+  right: 421px;
+}
